@@ -1,0 +1,49 @@
+.all-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 40px;
+  border: 1px solid red ;
+}
+@media (max-width: 600px;)  {
+    .all-grid{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+.video {
+  vertical-align: top;
+}
+.thumbnail-div {
+  width: 100%;
+  position: relative;
+}
+
+.titles {
+  width: 300px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+}
+.profile {
+  width: 50px;
+  vertical-align: top;
+}
+.profile-pic {
+  width: 40px;
+  height: 40px;
+  border-radius: 40px;
+  margin-top: 20px;
+}
+.title {
+  width: 240px;
+  margin-top: 0px;
+}
+.a {
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 20px;
+}
